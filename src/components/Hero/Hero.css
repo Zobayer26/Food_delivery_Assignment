@@ -1,7 +1,7 @@
 .hero {
     width: 1440px;
     height: 504px;
-    background: url('../../assets/Preset.png') no-repeat center;
+    background: url("../../assets/Preset.png") no-repeat center;
     background-size: cover;
     margin: 0 auto;
     display: flex;
@@ -10,22 +10,58 @@
     flex-direction: column;
 }
 
+.hero_details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
 .hero h1 {
-    color: #FFFFFF;
+    color: #ffffff;
     font-size: 56px;
     line-height: 72px;
     letter-spacing: 0.4px;
+    font-weight: 400;
 }
 
 .hero .searchbar {
     width: 815px;
     height: 56px;
-    background: #FFFFFF;
+    background: #ffffff;
     border-radius: 30px;
     display: flex;
+    align-items: center;
     padding-left: 30px;
     position: relative;
+}
 
+.searchbar .location {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: rgba(0, 0, 0, 0.85);
+    margin-right: 25px;
+}
+
+.location p {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+
+.location .icon {
+    color: #ff6a90;
+    font-size: 24px;
+}
+
+.searchbar .line {
+    background-color: #c5cbd1;
+    width: 1px;
+    height: 80%;
+    opacity: 0.6;
 }
 
 .hero .searchbar input {
@@ -33,27 +69,18 @@
     outline: none;
     padding-left: 20px;
     border: none;
-    
 }
 
 .searchbar .btn {
+    padding: 16px;
     font-size: 18px;
     letter-spacing: 0.3px;
     line-height: 24px;
     font-weight: 600;
-    color: #FFFFFF;
-    background: #FF006E;
+    color: #ffffff;
+    background: #ff006e;
     width: 136px;
     border: none;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
-}
-
-.searchbar .icon {
-    color: #FF006E;
-    position: absolute;
-    top: 50%;
-    left: 40px;
-    transform: translate(-50%, -50%);
-
 }

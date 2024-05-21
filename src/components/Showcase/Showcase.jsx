@@ -5,7 +5,7 @@ import Ornament from '../../assets/Ornament.png'
 const Showcase = () => {
   return (
     <section className='showcase'>
-      <p>How it works</p>
+      <p className='title'>How it works</p>
       <div className='showcase_container'>
         {ShowcaseData.map((item) => (
           <div className='container_box'

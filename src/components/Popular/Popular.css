@@ -1,16 +1,19 @@
 .popular {
     margin: 0 auto;
-    width: 1000px;
+    width: 1200px;
+    margin-top: 100px;
 
 }
 
 .popular_top {
     display: flex;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 20px;
 }
 
-.popular_top h5 {
+.popular_top h2 {
     font-size: 32px;
     font-weight: 400;
     line-height: 48px;
@@ -18,13 +21,32 @@
     color: rgba(0, 0, 0, 0.85);
 
 }
-
+.popular_top p{
+    
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
 .popular_bottom {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
-
+.popular_bottom p{
+ font-size: 18px;
+ line-height: 24px;
+ font-weight: 400;
+ color:rgba(0, 0, 0, 0.85)
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
 .details .title {
     font-size: 24px;
     color: rgba(0, 0, 0, 0.85);
@@ -37,6 +59,8 @@
     gap: 30px;
 }
 
-.details .info p {
-    color: rgba(0, 0, 0, 0.85);
+.fee {
+   display: flex;
+   align-items: center;
+   gap: 5px;
 }

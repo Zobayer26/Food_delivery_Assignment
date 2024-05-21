@@ -6,10 +6,12 @@ const Testimonial = () => {
   return (
     <section className='testimonial'>
       <h1 className='testimonial_title'>What our food lovers said</h1>
-      <p className=' testimonial_para'>In the artist&apos;s own experience, of course, art is
+      <p className=' testimonial_para'>
+        In the artist&apos;s own experience, of course, art is
         fundamentally indefinable, unsayable; there is something sacred
         about its demands upon the soul, something
-        inherently mysterious in the forms it takes</p>
+        inherently mysterious in the forms it takes
+        </p>
       <div className='testi_card'>
         <img src={testimonialImage} alt='' />
         <div className='testi_card_details'>

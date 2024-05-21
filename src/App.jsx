@@ -1,3 +1,4 @@
+
 import Header from './components/Header/Header'
 import Hero from './components/Hero/Hero'
 import Popular from './components/Popular/Popular'
@@ -10,7 +11,7 @@ import Footer from './components/Footer/Footer'
 
 const App = () => {
   return (
-    <div>
+    <main>
       <Header/>
       <Hero/>
       <Promotion/>
@@ -19,7 +20,7 @@ const App = () => {
       <CallToAction/>
       <Testimonial/>
       <Footer/>
-    </div>
+    </main>
   )
 }
 

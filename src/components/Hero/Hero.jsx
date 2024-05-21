@@ -1,22 +1,24 @@
 
 import './Hero.css'
-import { CiLocationOn } from "react-icons/ci";
+import { TiLocationOutline } from "react-icons/ti";
 const Hero = () => {
   return (
     <section className='hero'>
-      <h1>Your favorite food, delivered to you</h1>
+     <div className='hero_details'>
+     <h1>Your favorite food, delivered to you</h1>
       <div className='searchbar'>
-        <input
-          placeholder='Search here'
-          type='text'
-          value="New York"
-          readOnly
-        />
-        <div className='icon'>
-          <CiLocationOn />
+        <div className="location">
+          <TiLocationOutline className='icon' />
+          <p>New York</p>
         </div>
+        <hr className='line' />
+        <input
+          placeholder=''
+          type='text'
+        />
         <button className='btn'>Search</button>
       </div>
+     </div>
     </section>
   )
 }
