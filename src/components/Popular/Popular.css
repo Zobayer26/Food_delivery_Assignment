@@ -1,0 +1,42 @@
+.popular {
+    margin: 0 auto;
+    width: 1000px;
+
+}
+
+.popular_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popular_top h5 {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0.3px;
+    color: rgba(0, 0, 0, 0.85);
+
+}
+
+.popular_bottom {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.details .title {
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.85);
+    font-weight: 400;
+}
+
+.details .info {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.details .info p {
+    color: rgba(0, 0, 0, 0.85);
+}

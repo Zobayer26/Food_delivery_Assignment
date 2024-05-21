@@ -1,0 +1,59 @@
+.hero {
+    width: 1440px;
+    height: 504px;
+    background: url('../../assets/Preset.png') no-repeat center;
+    background-size: cover;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero h1 {
+    color: #FFFFFF;
+    font-size: 56px;
+    line-height: 72px;
+    letter-spacing: 0.4px;
+}
+
+.hero .searchbar {
+    width: 815px;
+    height: 56px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    display: flex;
+    padding-left: 30px;
+    position: relative;
+
+}
+
+.hero .searchbar input {
+    flex-grow: 1;
+    outline: none;
+    padding-left: 20px;
+    border: none;
+    
+}
+
+.searchbar .btn {
+    font-size: 18px;
+    letter-spacing: 0.3px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background: #FF006E;
+    width: 136px;
+    border: none;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.searchbar .icon {
+    color: #FF006E;
+    position: absolute;
+    top: 50%;
+    left: 40px;
+    transform: translate(-50%, -50%);
+
+}

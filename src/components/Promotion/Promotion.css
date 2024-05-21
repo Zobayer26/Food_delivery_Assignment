@@ -1,0 +1,54 @@
+.promotion {
+    width: 1069px;
+    margin: 0 auto;
+    height: 592px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.promotion_left {
+    width: 605px;
+
+}
+
+.promotion_left img {
+    width: 100%;
+}
+
+.promotion_right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.promotion_right h1 {
+    width: 400px;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: 0.3px;
+    color: black;
+}
+
+.promotion_right p {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    color: black;
+    width: 400px;
+
+}
+
+.promotion_right .btn{
+    width: 246px;
+    height: 56px;
+    background: #FF006E;
+    border-radius: 30px;
+    border: none;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    font-size: 21px;
+    line-height: 24px;
+}

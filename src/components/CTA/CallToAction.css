@@ -1,0 +1,35 @@
+.cta {
+    width: 1232px;
+    height: 360px;
+    margin: 0 auto;
+    background: url('../../assets/Background.png') center no-repeat;
+    background-size: cover;
+    padding: 30px 60px;
+}
+
+.cta h1 {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: 0.3px;
+    color: #ffffff;
+    width: 608px;
+
+}
+
+.cta .btn button {
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: none;
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+.btn_2 {
+    background: none;
+}
+
+.btn .btn_2:hover {
+    border: 2px solid #283646;
+    padding: 8px 13px;
+}
