@@ -27,7 +27,7 @@ const Testimonial = () => {
           </div>
         </div>
       </div>
-      <div>
+      <div className='testimonial_logo'>
         {TestimonialLogo.map((logo) => (
           <img
             key={logo.id}

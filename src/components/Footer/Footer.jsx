@@ -45,7 +45,7 @@ const Footer = () => {
         </div>
       </div>
       <div className='footer_img'>
-        <img  className="img_1" src={Footer_img} alt=' ' />
+        <img className="img_1" src={Footer_img} alt=' ' />
         <img className="img_2" src={Footer_img_1} alt=' ' />
       </div>
     </footer>

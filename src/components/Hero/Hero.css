@@ -1,5 +1,7 @@
 .hero {
-    width: 1440px;
+
+    width: 100%;
+    max-width: 1440px;
     height: 504px;
     background: url("../../assets/Preset.png") no-repeat center;
     background-size: cover;
@@ -26,7 +28,8 @@
 }
 
 .hero .searchbar {
-    width: 815px;
+    width: 100%;
+    max-width: 815px;
     height: 56px;
     background: #ffffff;
     border-radius: 30px;
@@ -83,4 +86,36 @@
     border: none;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
+}
+
+@media (max-width:768px) {
+    .header{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .hero h1{
+        text-align: center;
+    }
+    .hero .searchbar{
+      max-width: 400px;
+    }
+    .searchbar .location {
+        margin-right: 15px;
+    }
+    .location .icon{
+        font-size: 30px;
+    }
+    .hero .searchbar input {
+        flex-grow: 1;
+        outline: none;
+        padding-left: 10px;
+        border: none;
+    }
+
+    .searchbar .btn {
+        padding: 16px;
+        font-size: 16px;
+        letter-spacing: 0;
+        font-weight: 700;
+    }
 }

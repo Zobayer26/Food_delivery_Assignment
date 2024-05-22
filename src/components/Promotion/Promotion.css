@@ -1,7 +1,8 @@
 .promotion {
-    width: 1069px;
+    width: 100%;
+    max-width: 1069px;
     margin: 0 auto;
-    height: 592px;
+    min-height: 592px;
     display: flex;
     align-items: center;
     gap: 20px;
@@ -11,7 +12,8 @@
 
 
 .promotion_left {
-    width: 605px;
+    width: 100%;
+    max-width: 605px;
 
 }
 
@@ -54,4 +56,17 @@
     letter-spacing: 1px;
     font-size: 21px;
     line-height: 24px;
+}
+
+@media (max-width:768px) {
+    .promotion {
+        flex-direction: column;
+    }
+
+    .promotion_left {
+        max-width: 405px;
+    }
+    .promotion_right h1 {
+        font-size: 44px;
+    }
 }

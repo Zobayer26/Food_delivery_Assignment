@@ -1,5 +1,6 @@
 .cta {
-    width: 1232px;
+    width: 100%;
+    max-width: 1232px;
     height: 360px;
     margin: 0 auto;
     background: url('../../assets/Background.png') center no-repeat;
@@ -14,7 +15,8 @@
     line-height: 64px;
     letter-spacing: 0.3px;
     color: #ffffff;
-    width: 608px;
+    width: 100%;
+    max-width: 608px;
 
 }
 
@@ -33,4 +35,12 @@
 .btn .btn_2:hover {
     border: 2px solid #283646;
     padding: 8px 13px;
+}
+
+@media (max-width:768px) {
+    .cta h1 {
+       text-align: justify;
+       font-size: 40px;
+       margin-bottom: 20px;
+    }
 }

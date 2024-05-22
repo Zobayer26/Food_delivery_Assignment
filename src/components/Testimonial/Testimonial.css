@@ -1,5 +1,6 @@
 .testimonial {
-    width: 927px;
+    width: 100%;
+    max-width: 927px;
     margin: 0 auto;
     margin-top: 100px;
     display: flex;
@@ -29,7 +30,12 @@
 
 .testi_card {
     position: relative;
+    width: 100%;
     width: 608px;
+}
+
+.testi_card img {
+    width: 100%;
 }
 
 .testi_card_details {
@@ -69,4 +75,38 @@
     letter-spacing: 0.3px;
     font-weight: 700;
     color: #F40469;
+}
+
+.testimonial_logo {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+@media (max-width:768px) {
+    .testimonial .testimonial_title {
+        font-size: 44px;
+        text-align: center;
+    }
+
+    .testimonial .testimonial_para {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .testi_card {
+
+        max-width: 450px;
+    }
+
+    .testi_card_box h3 {
+        font-size: 20px;
+    }
+
+    .testi_card_para {
+        font-size: 16px;
+    }
+
+    .testimonial_logo {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
