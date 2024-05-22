@@ -6,7 +6,7 @@ This project is a submission for the Web Developer Internship at PROMIXCO Group.
 
 ## Live Demo
 
-You can view a live demo of the project [here]([link-to-live-demo](https://food-delivery-lilac.vercel.app/).
+You can view a live demo of the project [here](link-to-live-demo](https://food-delivery-lilac.vercel.app/).
 
 ## Features
 
